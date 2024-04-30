@@ -26,7 +26,7 @@ public class CheckDigit
      /* to be implemented in part (b) */    
      int c = numWithCheckDigit%10;
      int n = numWithCheckDigit/10;
-     int nc = getCheck(num);
+     int nc = getCheck(n);
      if(c == nc){
         return true;
      }else
